@@ -12,7 +12,7 @@ const App = ({store, history}) =>
   <Provider store={store}>
     <ConnectedRouter history={history}>
       <div>
-      <Menu />
+        <Menu />
         <Switch>
           <Route exact path="/" component={Feed} />
           <Route path="/favorites" component={Favorites} />
